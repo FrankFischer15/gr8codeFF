@@ -1,23 +1,22 @@
 
 
-body {
+body,
+footer {
 	font-family: Arial;
 	color: #555555;
 }
 
-h1 {
+h1,
+h2 {
 	color: black;
 }
 
 h2 {
 	font-size: 18px;
-	color: black;
 }
 
 footer {
 	font-size: 12px;
-	font-family: Arial;
-	color: #555555;
 }
 
 th {
@@ -26,7 +25,7 @@ th {
 	text-align: left;
 }
 
-.column {
+td:first-child {
 	width: 100px;
 	font-weight: bold;
 }
