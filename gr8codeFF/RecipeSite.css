@@ -1,0 +1,90 @@
+#navigate {
+	height: 100px;
+	background-color: lightgray;
+	float: top;
+}
+
+body, {
+	font-family: Arial;
+	color: #555555;
+}
+
+h1,
+h2 {
+	color: black;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+footer {
+	font-size: 12px;
+	padding-top: 40px;
+}
+
+th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+td:first-child {
+	width: 100px;
+	font-weight: bold;
+}
+
+tr:hover {
+	background-color: #FEFFDB;
+	cursor: pointer;
+}
+
+#ingredients {
+	margin-top: 40px;
+}
+
+#instructions {
+	margin-top: 40px;
+}
+
+img {
+	height: 85px;
+	width: 85px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+a[name="save"] {
+	float: right;
+	background-color: lightgreen;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	border: 2px solid gray;
+}
+
+a[name="recipes"] {
+	font-weight: bold;
+	color: purple;
+	font-size: 20px;
+}
+
+div[name="list"] {
+	background-color: lightyellow;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+div[name="list"] a {
+	color: purple;
+
+}
