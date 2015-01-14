@@ -1,0 +1,41 @@
+
+
+body {
+	font-family: Arial;
+	color: #555555;
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	font-size: 18px;
+	color: black;
+}
+
+footer {
+	font-size: 12px;
+	font-family: Arial;
+	color: #555555;
+}
+
+th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.column {
+	width: 100px;
+	font-weight: bold;
+}
+
+tr:hover {
+	background-color: #FEFFDB;
+	cursor: pointer;
+}
+
+#instructions {
+	margin-top: 40px;
+}
