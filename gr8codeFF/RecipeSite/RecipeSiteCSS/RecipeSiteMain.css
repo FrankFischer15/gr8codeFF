@@ -1,0 +1,58 @@
+/* Recipe Site Main CSS
+=======================*/
+
+@import url("HomePage.css");
+@import url("SubmitPage.css");
+@import url("RecipePages.css");
+
+/* Navigation Bar
+===================*/
+
+.nav {
+    display: -webkit-flex;
+    height: 100px;
+    background-color: lightgray;
+}
+nav a {
+    margin: 10px;
+    -webkit-align-self: center;
+}
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+/* Site Body/Text
+===================*/
+
+body {
+    font-family: Arial;
+    color: #555555;
+}
+h1, h2 {
+    color: black;
+}
+h2 {
+    font-size: 18px;
+}
+hr {
+    margin-top: 30px;
+}
+input[type="text"] {
+    width: 200px;
+}
+
+/* Footer
+===================*/
+
+footer {
+    font-size: 12px;
+}
+
+
+
+
