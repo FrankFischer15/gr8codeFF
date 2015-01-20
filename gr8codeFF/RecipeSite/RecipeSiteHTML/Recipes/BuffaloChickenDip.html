@@ -11,12 +11,19 @@
 <body>
 
     <!--============= Navigation Bar =============-->
-    <nav class="nav">
-        <a class="logo" href="../RecipeSiteIndex.html"><img src="http://www.wpclipart.com/food/cooking/chefs_cap.png" />
-        </a>
-        <a href="../RecipeSiteIndex.html">Home</a>
-        <a href="../RecipeSiteIndex.html">Recipes</a>
-        <a href="../SubmitPages/SubmitRecipe.html">Submit a Recipe</a>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a class="logo" href="../RecipeSiteIndex.html"><img src="http://www.wpclipart.com/food/cooking/chefs_cap.png" />
+                </a>
+            </li>
+            <li><a href="../RecipeSiteIndex.html">Home</a>
+            </li>
+            <li><a href="../RecipeSiteIndex.html">Recipes</a>
+            </li>
+            <li><a href="../SubmitPages/SubmitRecipe.html">Submit a Recipe</a>
+            </li>
+        </ul>
     </nav>
     <!--============= Recipe Image/Save/Title =============-->
     <img class="food" src="http://cf.realhousemoms.com/wp-content/uploads/2012/09/Buffalo-Chicken-Dip-1024x709.jpg" />
@@ -29,7 +36,7 @@
 
     <hr>
     <!--============= Ingredients Table =============-->
-    <h2>Ingredients</h2>
+    <h2 id="ingred">Ingredients</h2>
 
     <table>
         <thead>
@@ -57,7 +64,7 @@
     </table>
 
     <!--============= Instructions list =============-->
-    <h2>Instructions</h2>
+    <h2 id="instruct">Instructions</h2>
 
     <ol class="instructions">
         <li>Mix everything together</li>
@@ -67,20 +74,22 @@
     </ol>
 
     <!--============= Sign Up Form =============-->
-    <h2>Sign up for our newsletter!</h2>
+    <div class="signUp">
+        <h2>Sign up for our newsletter!</h2>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" />
-        <label for="email">Email:</label>
-        <input type="text" name="email" id="email" />
-        <label for="food">Your favorite food:</label>
-        <select id="food">
-            <option>Pizza</option>
-            <option>Other</option>
-        </select>
-        <input type="submit" name="submit" />
-    </form>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+            <label for="food">Your favorite food:</label>
+            <select id="food">
+                <option>Pizza</option>
+                <option>Other</option>
+            </select>
+            <input type="submit" name="submit" />
+        </form>
+    </div>
 
 </body>
 <!--============= Footer =============-->

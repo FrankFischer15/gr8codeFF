@@ -1,6 +1,5 @@
 /* Recipe Pages CSS
 ===================*/
-
 /* Food Image
 ===================*/
 
@@ -10,9 +9,7 @@
     float: left;
     padding-right: 10px;
     padding-bottom: 20px;
-    margin-top: 20px;
 }
-
 /* Save Button
 ===================*/
 
@@ -27,7 +24,6 @@
     text-align: center;
     border: 2px solid gray;
 }
-
 /* Ingredients Table
 ===================*/
 
