@@ -1,36 +1,38 @@
+"use strict";
+$(document).ready(function(){
+
 var names = ["Frank", "Ben", "Steph", "Pat"];
 
-document.getElementById("one").addEventListener("click", showName);
-
-function showName() {
+$(".red").click(function(e){
     console.log(names[1]);
-};
+});
 
-document.getElementById("two").addEventListener("click", count);
 
-function count() {
-    for (i = 1; i <= 10; i++) {
+$(".orange").click(function(e){
+    for (var i = 1; i <= 10; i++) {
         console.log(i);
     };
-};
+});
 
-document.getElementById("three").addEventListener("click", nameLoop);
 
-function nameLoop() {
-    for (l = 0; l < names.length; l++) {
+
+$(".yellow").click(function(e){
+    for (var l = 0; l < names.length; l++){
         console.log(names[l]);
     };
-};
+});
 
-document.getElementById("four").addEventListener("click", startsWith);
 
-function startsWith() {
-    for (k = 0; k < names.length; k++) {
-        if (names[k].substring(0, 1) === "P") {
+
+$(".green").click(function(e){
+    for (var k = 0; k < names.length; k++){
+        if (names[k].substring(0, 1) === "P"){
             console.log(names[k]);
         };
     };
-};
+});
+
+
 
 var car = {
     doors: 4,
@@ -41,4 +43,6 @@ var car = {
     }
 };
 
-document.getElementById("five").addEventListener("click", car.honk);
+$(".blue").click(car.honk);
+
+});
